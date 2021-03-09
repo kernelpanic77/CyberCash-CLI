@@ -12,7 +12,7 @@ program
        .option(
             '--curr <type>',
             'Change the Currency INR',
-            'INR,USD'
+            'INR,USD,EUR'
         )
        .action((cmd) => today.prices(cmd));
 
